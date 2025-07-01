@@ -42,7 +42,7 @@ class OnBoardingScreen extends StatelessWidget {
                 UiHelper.customText(text: 'to accept the', hight: 14),
                 UiHelper.customText(
                   text: ' Teams of Service.',
-                  hight: 14,
+                  hight: 14,  
                   color: Color(0xff0C42CC),
                 ),
               ],
