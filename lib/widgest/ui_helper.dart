@@ -29,4 +29,24 @@ class UiHelper {
       )
     );
   }
+
+  static customContainer(TextEditingController controller){
+    return Container(
+      width: 40,
+      height: 40,
+      decoration: BoxDecoration(
+        color: Color(0xffd9d9d9a1),
+        borderRadius: BorderRadius.circular(10),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: TextField(
+          controller: controller,
+          decoration: InputDecoration(
+            border: InputBorder.none,
+          ),
+        ),
+      ),
+    );
+  }
 }
